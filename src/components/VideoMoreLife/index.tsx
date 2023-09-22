@@ -1,10 +1,12 @@
 import { LinkPicturesOnFire, VideoContainer } from "./styles";
 
+import videMp4 from "../../assets/video/videoEditado.mp4";
+
 export function VideoMoreLife() {
   return (
     <VideoContainer>
       <video controls>
-        <source src="/src/assets/video/videoEditado.mp4" type="video/mp4" />
+        <source src={videMp4} type="video/mp4" />
       </video>
 
       <LinkPicturesOnFire
