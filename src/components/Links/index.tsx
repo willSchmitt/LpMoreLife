@@ -6,6 +6,11 @@ import {
   LinksContainer,
 } from "./styles";
 
+import whatsappIcon from "../../assets/whatsappIcon.png";
+import spotifyIcon from "../../assets/spotifyIcon.png";
+import markerIcon from "../../assets/markerIcon.png";
+import instagramIcon from "../../assets/instagramIcon.png";
+
 export function Links() {
   return (
     <LinksContainer>
@@ -14,11 +19,7 @@ export function Links() {
         target="_blank"
       >
         <section>
-          <img
-            src="/src/assets/instagramIcon.png"
-            width={40}
-            alt="Icone do Instagram"
-          />
+          <img src={instagramIcon} width={40} alt="Icone do Instagram" />
 
           <small>Instagram</small>
         </section>
@@ -29,22 +30,14 @@ export function Links() {
         target="_blank"
       >
         <section>
-          <img
-            src="/src/assets/whatsappIcon.png"
-            width={40}
-            alt="Icone do WhatsApp"
-          />
+          <img src={whatsappIcon} width={40} alt="Icone do WhatsApp" />
           <small>WHATSAPP</small>
         </section>
       </LinkWhatsApp>
 
       <LinkSpotify href="https://spotify.link/ztKp8MPyhDb" target="_blank">
         <section>
-          <img
-            src="/src/assets/spotifyIcon.png"
-            width={40}
-            alt="Icone do spotify"
-          />
+          <img src={spotifyIcon} width={40} alt="Icone do spotify" />
           <small>SPOTIFY</small>
         </section>
       </LinkSpotify>
@@ -54,11 +47,7 @@ export function Links() {
         target="_blank"
       >
         <section>
-          <img
-            src="/src/assets/markerIcon.png"
-            width={40}
-            alt="Icone de um marcador "
-          />
+          <img src={markerIcon} width={40} alt="Icone de um marcador " />
           <small>COMO CHEGAR</small>
         </section>
       </LinkLocation>

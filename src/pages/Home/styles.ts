@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-  background-image: url(/src/assets/foto-fundo-LP.jpg);
+  background-image: url(/assets/foto-fundo-LP.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
