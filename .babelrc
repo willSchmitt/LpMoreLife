@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": false, // Define como false para aplicações client-side
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}
