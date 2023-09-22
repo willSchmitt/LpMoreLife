@@ -5,11 +5,9 @@ import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
-    <>
-      <ThemeProvider theme={themes}>
-        <MoreLifePage />
-        <GlobalStyle />
-      </ThemeProvider>
-    </>
+    <ThemeProvider theme={themes}>
+      <MoreLifePage />
+      <GlobalStyle />
+    </ThemeProvider>
   );
 }
