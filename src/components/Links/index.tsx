@@ -1,10 +1,4 @@
 import {
-  InstagramLogo,
-  MapPin,
-  SpotifyLogo,
-  WhatsappLogo,
-} from "phosphor-react";
-import {
   LinkInstagram,
   LinkLocation,
   LinkSpotify,
@@ -20,7 +14,12 @@ export function Links() {
         target="_blank"
       >
         <section>
-          <InstagramLogo size={40} color="#40e0d0" />
+          <img
+            src="/src/assets/instagramIcon.png"
+            width={40}
+            alt="Icone do Instagram"
+          />
+
           <small>Instagram</small>
         </section>
       </LinkInstagram>
@@ -30,14 +29,22 @@ export function Links() {
         target="_blank"
       >
         <section>
-          <WhatsappLogo size={40} color="#40e0d0" />
+          <img
+            src="/src/assets/whatsappIcon.png"
+            width={40}
+            alt="Icone do WhatsApp"
+          />
           <small>WHATSAPP</small>
         </section>
       </LinkWhatsApp>
 
       <LinkSpotify href="https://spotify.link/ztKp8MPyhDb" target="_blank">
         <section>
-          <SpotifyLogo size={40} color="#40e0d0" />
+          <img
+            src="/src/assets/spotifyIcon.png"
+            width={40}
+            alt="Icone do spotify"
+          />
           <small>SPOTIFY</small>
         </section>
       </LinkSpotify>
@@ -47,7 +54,11 @@ export function Links() {
         target="_blank"
       >
         <section>
-          <MapPin size={40} color="#40e0d0" />
+          <img
+            src="/src/assets/markerIcon.png"
+            width={40}
+            alt="Icone de um marcador "
+          />
           <small>COMO CHEGAR</small>
         </section>
       </LinkLocation>
