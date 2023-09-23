@@ -5,7 +5,7 @@ import videMp4 from "../../assets/video/videoEditado.mp4";
 export function VideoMoreLife() {
   return (
     <VideoContainer>
-      <video controls autoPlay muted>
+      <video controls autoPlay muted loop>
         <source src={videMp4} type="video/mp4" />
       </video>
 
